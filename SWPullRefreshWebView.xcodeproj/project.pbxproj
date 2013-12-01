@@ -21,6 +21,7 @@
 		80AD9083184B7278006F6ABE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AD9065184B7278006F6ABE /* UIKit.framework */; };
 		80AD908B184B7278006F6ABE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80AD9089184B7278006F6ABE /* InfoPlist.strings */; };
 		80AD908D184B7279006F6ABE /* SWPullRefreshWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AD908C184B7278006F6ABE /* SWPullRefreshWebViewTests.m */; };
+		80AD9098184B729A006F6ABE /* UIWebView+RefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AD9097184B729A006F6ABE /* UIWebView+RefreshControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		80AD9088184B7278006F6ABE /* SWPullRefreshWebViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SWPullRefreshWebViewTests-Info.plist"; sourceTree = "<group>"; };
 		80AD908A184B7278006F6ABE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		80AD908C184B7278006F6ABE /* SWPullRefreshWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWPullRefreshWebViewTests.m; sourceTree = "<group>"; };
+		80AD9096184B729A006F6ABE /* UIWebView+RefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+RefreshControl.h"; sourceTree = "<group>"; };
+		80AD9097184B729A006F6ABE /* UIWebView+RefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+RefreshControl.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				80AD9073184B7278006F6ABE /* Main.storyboard */,
 				80AD9076184B7278006F6ABE /* ViewController.h */,
 				80AD9077184B7278006F6ABE /* ViewController.m */,
+				80AD9096184B729A006F6ABE /* UIWebView+RefreshControl.h */,
+				80AD9097184B729A006F6ABE /* UIWebView+RefreshControl.m */,
 				80AD9079184B7278006F6ABE /* Images.xcassets */,
 				80AD9068184B7278006F6ABE /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				80AD9078184B7278006F6ABE /* ViewController.m in Sources */,
 				80AD9072184B7278006F6ABE /* AppDelegate.m in Sources */,
 				80AD906E184B7278006F6ABE /* main.m in Sources */,
+				80AD9098184B729A006F6ABE /* UIWebView+RefreshControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
